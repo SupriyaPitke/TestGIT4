@@ -27,7 +27,7 @@
           <External val="N"/>
           <Offline val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734132" _time="56872" date="26/12/2010" time="15:47:52"/>
+          <LastModified _date="736457" _time="62798" date="08/05/2017" time="17:26:38"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -60,7 +60,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="1"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="8"/>
@@ -169,7 +168,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="5" id="3">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_DIT_INFO>
@@ -184,7 +182,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="4" FlowIsn="6" id="4">
-                  <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_DIT_INFO>
@@ -199,7 +196,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="5" FlowIsn="7" id="5">
-                  <Column val="6"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_DIT_INFO>
@@ -379,7 +375,7 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control _test_id="122" id="9">
+            <Control PDOD="128" _test_id="122" id="9">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="3"/>
@@ -425,7 +421,7 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control _test_id="124" id="12">
+            <Control PDOD="128" _test_id="124" id="12">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="4"/>

@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734146" _time="50741" date="09/01/2011" time="14:05:41"/>
+          <LastModified _date="736457" _time="62799" date="08/05/2017" time="17:26:39"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -162,7 +162,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FieldID="7" FlowIsn="8" Key="1" Mode="R" SortType="13" VIEW="2" VIEWS="4">
+                <LNK Direction="A" EVL_CND="R" FieldID="7" FlowIsn="8" Mode="R" SortType="13" VIEW="2" VIEWS="4">
                   <DB comp="-1" obj="8"/>
                   <Expanded val="1"/>
                   <Condition val="Y"/>
@@ -170,7 +170,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="5" FlowIsn="11" id="5">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <Locate MAX="3" MIN="3"/>
@@ -183,7 +182,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="9" id="3">
-                  <Column val="3"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <_DitIndexForToolkit val="7"/>
@@ -195,7 +193,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="4" FlowIsn="10" id="4">
-                  <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <_DitIndexForToolkit val="9"/>
@@ -207,7 +204,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="6" FlowIsn="12" id="6">
-                  <Column val="19"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <_DitIndexForToolkit val="13"/>
@@ -440,7 +436,7 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="4" _test_id="122" id="7">
+            <Control ISN_FATHER="4" PDOD="128" _test_id="122" id="7">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="3"/>
@@ -474,7 +470,7 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="4" _test_id="124" id="9">
+            <Control ISN_FATHER="4" PDOD="128" _test_id="124" id="9">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="4"/>
@@ -508,7 +504,7 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="4" _test_id="126" id="11">
+            <Control ISN_FATHER="4" PDOD="128" _test_id="126" id="11">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="5"/>
@@ -542,7 +538,7 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="4" _test_id="128" id="13">
+            <Control ISN_FATHER="4" PDOD="128" _test_id="128" id="13">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="6"/>
