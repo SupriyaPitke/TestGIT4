@@ -29,7 +29,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734254" _time="39714" date="27/04/2011" time="11:01:54"/>
+          <LastModified _date="736457" _time="62785" date="08/05/2017" time="17:26:25"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -62,7 +62,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="2"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="1"/>
@@ -140,7 +139,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
-                  <Column val="5"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
@@ -151,7 +149,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="4" id="2">
-                  <Column val="4"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_RCMP_INFO>
@@ -165,7 +162,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="5" id="3">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_DIT_INFO>
@@ -180,7 +176,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="4" FlowIsn="6" id="4">
-                  <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_RCMP_INFO>
@@ -200,7 +195,7 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FlowIsn="8" Key="2" Mode="R" SortType="12" VIEW="5" VIEWS="3">
+                <LNK Direction="A" EVL_CND="R" FlowIsn="8" Mode="R" SortType="12" VIEW="5" VIEWS="3">
                   <DB comp="-1" obj="1"/>
                   <Expanded val="1"/>
                   <Condition val="Y"/>
@@ -208,7 +203,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="5" FlowIsn="9" id="5">
-                  <Column val="5"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <Locate MAX="8" MIN="8"/>
@@ -220,7 +214,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="6" FlowIsn="10" id="6">
-                  <Column val="4"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
@@ -231,7 +224,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="7" FlowIsn="11" id="7">
-                  <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <REAL_VNAME_TXT val="Description-parent"/>
@@ -439,7 +431,7 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="3" _test_id="9" id="5">
+            <Control ISN_FATHER="3" PDOD="128" _test_id="9" id="5">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="3"/>
@@ -489,7 +481,7 @@
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="3" _test_id="1" id="7">
+            <Control ISN_FATHER="3" PDOD="128" _test_id="1" id="7">
               <PropertyList model="CTRL_GUI0_TREE">
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="5"/>
@@ -535,8 +527,8 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="2">
-            <ExpSyntax val="InStr(Upper(Trim({0,4})),Upper(Trim({0,8})))>0 OR InStr(Upper(Trim({0,7})),Upper(Trim({0,8})))>0"/>
-            <ExpAttribute val="B"/>
+            <ExpSyntax val="InStr(Upper(Trim({0,4})),Upper(Trim(K)))>0 OR InStr(Upper(Trim(J)),Upper(Trim(K)))>0"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="3">
             <ExpSyntax val="'ROOT'"/>
@@ -552,7 +544,7 @@
           </Expression>
           <Expression id="6">
             <ExpSyntax val="{0,3}&lt;>''"/>
-            <ExpAttribute val="B"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="7">
             <ExpSyntax val="2"/>
@@ -761,7 +753,7 @@
             </FormEntry>
           </TaskForms>
           <Task MainProgram="N">
-            <Header Description="== Write Tree" ISN_2="3" LastIsn="3" id="3">
+            <Header Description="== Write Tree" ISN_2="3" LastIsn="7" id="3">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -6724,7 +6716,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="== Create Pgm" ISN_2="5" LastIsn="5" id="3">
+              <Header Description="== Create Pgm" ISN_2="5" LastIsn="7" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="Y"/>
                 <SQL val="N"/>
@@ -7002,7 +6994,7 @@
               </Expressions>
             </Task>
             <Task MainProgram="N">
-              <Header Description="== Create Root" ISN_2="6" LastIsn="6" id="3">
+              <Header Description="== Create Root" ISN_2="6" LastIsn="7" id="3">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>

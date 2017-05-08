@@ -11,7 +11,7 @@
 
   <ModelsRepository>
     <Models>
-      <Object id="1" name="Integer">
+      <Object ToBeMigratedFrom1x="Y" id="1" name="Integer">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="8NC"/>
@@ -21,7 +21,7 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="2" name="Money">
+      <Object ToBeMigratedFrom1x="Y" id="2" name="Money">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="N8.2C+$;--$;"/>
@@ -31,13 +31,13 @@
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="3" name="Date">
+      <Object ToBeMigratedFrom1x="Y" id="3" name="Date">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_DATE" id="1"/>
           <_FieldStyle id="276" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="4" name="Data Entry">
+      <Object ToBeMigratedFrom1x="Y" id="4" name="Data Entry">
         <PropertyList model="CTRL_GUI0_EDIT">
           <Font id="50" val="38"/>
           <Color id="51" val="14"/>
@@ -47,7 +47,7 @@
           <V11Style id="539" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="5" name="Display Only">
+      <Object ToBeMigratedFrom1x="Y" id="5" name="Display Only">
         <PropertyList model="CTRL_GUI0_EDIT">
           <Font id="50" val="38"/>
           <Color id="51" val="5"/>
@@ -60,7 +60,7 @@
           <V11Style id="539" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="6" name="Form">
+      <Object ToBeMigratedFrom1x="Y" id="6" name="Form">
         <PropertyList model="FORM_GUI0">
           <ShowGrid id="37"/>
           <GridX id="38" val="2"/>
@@ -71,7 +71,7 @@
           <PersistentFormState id="493"/>
         </PropertyList>
       </Object>
-      <Object id="7" name="Tab Button">
+      <Object ToBeMigratedFrom1x="Y" id="7" name="Tab Button">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
           <Placement id="20" top="100"/>
           <ControlName id="46" val="Tab"/>
@@ -90,7 +90,7 @@
           <V11ButtonStyle id="537" val="3"/>
         </PropertyList>
       </Object>
-      <Object id="8" name="Shift+Tab Button">
+      <Object ToBeMigratedFrom1x="Y" id="8" name="Shift+Tab Button">
         <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
           <Placement id="20" top="100"/>
           <ControlName id="46" val="Back Tab"/>
@@ -108,7 +108,7 @@
           <V11ButtonStyle id="537" val="1"/>
         </PropertyList>
       </Object>
-      <Object id="9" name="Vector String">
+      <Object ToBeMigratedFrom1x="Y" id="9" name="Vector String">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_ALPHA" id="1"/>
           <Picture id="157" valUnicode="256"/>
@@ -116,7 +116,7 @@
           <_Flip id="194"/>
         </PropertyList>
       </Object>
-      <Object id="10" name="Vector Integer">
+      <Object ToBeMigratedFrom1x="Y" id="10" name="Vector Integer">
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_NUMERIC" id="1"/>
           <Picture id="157" valUnicode="8"/>

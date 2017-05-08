@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734259" _time="34732" date="02/05/2011" time="09:38:52"/>
+          <LastModified _date="736457" _time="62786" date="08/05/2017" time="17:26:26"/>
         </Header>
         <ItemIsn val="14"/>
         <Resource>
@@ -961,7 +961,7 @@
           </Event>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="Store one email" ISN_2="2" LastIsn="2" id="57">
+          <Header Description="Store one email" ISN_2="2" LastIsn="5" id="57">
             <ExecutionRight comp="-1"/>
             <Resident val="Y"/>
             <SQL val="N"/>
@@ -1996,7 +1996,7 @@
             </Expression>
           </Expressions>
           <Task MainProgram="N">
-            <Header Description="View Mail Message" ISN_2="4" LastIsn="4" id="57">
+            <Header Description="View Mail Message" ISN_2="4" LastIsn="5" id="57">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>

@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734076" _time="73590" date="31/10/2010" time="20:26:30"/>
+          <LastModified _date="736457" _time="62786" date="08/05/2017" time="17:26:26"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>
@@ -896,6 +896,7 @@
                 <Color id="51" val="66"/>
                 <Visible Exp="11" id="61"/>
                 <_VerticalScroll id="73"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="84" id="11">
@@ -998,7 +999,7 @@
           </Event>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="Fetch Mail" ISN_2="2" LastIsn="3" id="58">
+          <Header Description="Fetch Mail" ISN_2="2" LastIsn="7" id="58">
             <ExecutionRight comp="-1"/>
             <Resident val="Y"/>
             <SQL val="N"/>
@@ -1636,7 +1637,7 @@
             </Expression>
           </Expressions>
           <Task MainProgram="N">
-            <Header Description="Store Attachment" ISN_2="3" LastIsn="3" id="58">
+            <Header Description="Store Attachment" ISN_2="3" LastIsn="7" id="58">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2571,7 +2572,7 @@
             </Expression>
           </Expressions>
           <Task MainProgram="N">
-            <Header Description="View Mail Message" ISN_2="5" LastIsn="6" id="58">
+            <Header Description="View Mail Message" ISN_2="5" LastIsn="7" id="58">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2799,7 +2800,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="Attachments" ISN_2="6" LastIsn="6" id="58">
+              <Header Description="Attachments" ISN_2="6" LastIsn="7" id="58">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>

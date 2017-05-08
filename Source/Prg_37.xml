@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734079" _time="38268" date="03/11/2010" time="10:37:48"/>
+          <LastModified _date="736457" _time="62786" date="08/05/2017" time="17:26:26"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -436,13 +436,13 @@
                 <_Orientation id="143"/>
                 <SourceTable comp="-1" id="150" obj="4"/>
                 <TabOrder id="314" val="3"/>
-                <_DisplayField comp="-1" id="443" obj="3"/>
-                <_LinkField comp="-1" id="444" obj="2"/>
-                <_Index comp="-1" id="445" obj="1"/>
+                <_DisplayField id="443"/>
+                <_LinkField id="444"/>
+                <_Index id="445"/>
               </PropertyList>
               <FieldRanges>
                 <FLD_RNG>
-                  <_Column comp="-1" obj="1"/>
+                  <_Column comp="-1"/>
                   <MIN val="3"/>
                   <MAX val="3"/>
                 </FLD_RNG>
@@ -698,7 +698,7 @@
             </FormEntry>
           </TaskForms>
           <Task MainProgram="N">
-            <Header Description="== Write Data" ISN_2="3" LastIsn="3" id="37">
+            <Header Description="== Write Data" ISN_2="3" LastIsn="4" id="37">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
