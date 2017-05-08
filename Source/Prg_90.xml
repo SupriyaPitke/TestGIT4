@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734038" _time="45467" date="23/09/2010" time="12:37:47"/>
+          <LastModified _date="736457" _time="62787" date="08/05/2017" time="17:26:27"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -467,6 +467,7 @@
                 <Height id="24" val="10"/>
                 <ControlName id="46" val="Splitter Location"/>
                 <_VerticalScroll id="73"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="58" id="8">
@@ -536,7 +537,7 @@
           </Event>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="Subtask 1" ISN_2="2" LastIsn="2" id="90">
+          <Header Description="Subtask 1" ISN_2="2" LastIsn="3" id="90">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>

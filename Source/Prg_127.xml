@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734038" _time="43760" date="23/09/2010" time="12:09:20"/>
+          <LastModified _date="736457" _time="62788" date="08/05/2017" time="17:26:28"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -522,6 +522,7 @@
                 <Height id="24" val="10"/>
                 <Color id="51" val="66"/>
                 <_VerticalScroll id="73"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
           </FormEntry>
