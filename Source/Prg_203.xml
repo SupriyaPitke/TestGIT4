@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734076" _time="79593" date="31/10/2010" time="22:06:33"/>
+          <LastModified _date="736457" _time="62789" date="08/05/2017" time="17:26:29"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
@@ -445,7 +445,7 @@
           </Event>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="CustLetter XML View" ISN_2="2" LastIsn="2" id="203">
+          <Header Description="CustLetter XML View" ISN_2="2" LastIsn="3" id="203">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>

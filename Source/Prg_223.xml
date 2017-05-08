@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734068" _time="70585" date="23/10/2010" time="19:36:25"/>
+          <LastModified _date="736457" _time="62790" date="08/05/2017" time="17:26:30"/>
         </Header>
         <ItemIsn val="7"/>
         <Resource>
@@ -81,7 +81,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="1"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="8"/>
@@ -165,7 +164,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="4" id="1">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Record ID"/>
@@ -178,7 +176,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="5" id="2">
-                  <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="First Name"/>
@@ -191,7 +188,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="6" id="3">
-                  <Column val="3"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Last Name"/>
@@ -614,7 +610,7 @@
                 <ColumnTitle id="139" valUnicode="Last Name"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="11" _test_id="85" id="15">
+            <Control ISN_FATHER="11" PDOD="128" _test_id="85" id="15">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1"/>
@@ -634,7 +630,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="11" _test_id="87" id="16">
+            <Control ISN_FATHER="11" PDOD="128" _test_id="87" id="16">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="2"/>
@@ -654,7 +650,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="11" _test_id="89" id="17">
+            <Control ISN_FATHER="11" PDOD="128" _test_id="89" id="17">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="3"/>
@@ -729,12 +725,12 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="6">
-            <ExpSyntax val="RangeAdd('{0,2}'VAR,Trim({0,4})&amp;'*',Trim({0,5})&amp;'*')"/>
-            <ExpAttribute val="B"/>
+            <ExpSyntax val="RangeAdd('{0,2}'VAR,Trim(G)&amp;'*',Trim(H)&amp;'*')"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="7">
-            <ExpSyntax val="RangeAdd('{0,3}'VAR,Trim({0,6})&amp;'*',Trim({0,7})&amp;'*')"/>
-            <ExpAttribute val="B"/>
+            <ExpSyntax val="RangeAdd('{0,3}'VAR,Trim(I)&amp;'*',Trim(J)&amp;'*')"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="8">
             <ExpSyntax val="{0,4}&lt;>'' OR {0,5}&lt;>''"/>

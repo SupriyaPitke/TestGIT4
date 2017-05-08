@@ -32,7 +32,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734076" _time="52832" date="31/10/2010" time="14:40:32"/>
+          <LastModified _date="736457" _time="62791" date="08/05/2017" time="17:26:31"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -106,7 +106,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="1"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="10"/>
@@ -223,7 +222,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="4" FlowIsn="7" id="4">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <Range MAX="1" MIN="1"/>
@@ -235,7 +233,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="5" FlowIsn="8" id="5">
-                  <Column val="22"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
@@ -246,7 +243,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="6" FlowIsn="9" id="6">
-                  <Column val="26"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_RCMP_INFO>
@@ -260,7 +256,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="7" FlowIsn="10" id="7">
-                  <Column val="27"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <INT_RCMP_INFO>
@@ -274,7 +269,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="8" FlowIsn="11" id="8">
-                  <Column val="28"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
@@ -387,7 +381,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="3">
-            <ExpSyntax val="Trim({0,6}) &amp; ' ' &amp; Trim({0,6}) &amp; ' ' &amp; Trim({0,7})"/>
+            <ExpSyntax val="Trim({0,6}) &amp; ' ' &amp; Trim(I) &amp; ' ' &amp; Trim(J)"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>

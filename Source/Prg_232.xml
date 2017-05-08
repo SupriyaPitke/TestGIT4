@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734076" _time="71210" date="31/10/2010" time="19:46:50"/>
+          <LastModified _date="736457" _time="62790" date="08/05/2017" time="17:26:30"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -44,7 +44,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="1"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="8"/>
@@ -122,7 +121,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
@@ -133,7 +131,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="4" id="2">
-                  <Column val="19"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Title"/>
@@ -146,7 +143,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="5" id="3">
-                  <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="First Name"/>
@@ -159,7 +155,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="4" FlowIsn="6" id="4">
-                  <Column val="3"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Last Name"/>
@@ -172,7 +167,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="5" FlowIsn="7" id="5">
-                  <Column val="16"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Category"/>
@@ -185,7 +179,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="6" FlowIsn="8" id="6">
-                  <Column val="8"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
@@ -314,7 +307,7 @@
                 <ColumnTitle id="139" valUnicode="Category"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" _test_id="13" id="7">
+            <Control ISN_FATHER="2" PDOD="128" _test_id="13" id="7">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="2"/>
@@ -334,7 +327,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" _test_id="15" id="8">
+            <Control ISN_FATHER="2" PDOD="128" _test_id="15" id="8">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="3"/>
@@ -354,7 +347,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" _test_id="17" id="9">
+            <Control ISN_FATHER="2" PDOD="128" _test_id="17" id="9">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="4"/>
@@ -374,7 +367,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" PDOD="192" _test_id="19" id="10">
+            <Control ISN_FATHER="2" PDOD="128" _test_id="19" id="10">
               <PropertyList model="CTRL_GUI0_COMBOBOX">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="5"/>
