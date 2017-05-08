@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734073" _time="50087" date="28/10/2010" time="13:54:47"/>
+          <LastModified _date="736457" _time="62792" date="08/05/2017" time="17:26:32"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -67,7 +67,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="1"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="2"/>
@@ -145,7 +144,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="#"/>
@@ -163,7 +161,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="4" id="2">
-                  <Column val="4"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Hex"/>
@@ -325,7 +322,7 @@
                 <ColumnTitle id="139" valUnicode="Ascii "/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="1" PDOD="1" _test_id="2" id="6">
+            <Control ISN_FATHER="1" PDOD="128" _test_id="2" id="6">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="1"/>
@@ -432,7 +429,7 @@
         <Expressions>
           <Expression id="1">
             <ExpSyntax val="UnicodeChr({0,1})"/>
-            <ExpAttribute val="U"/>
+            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">
             <ExpSyntax val="ASCIIChr({0,1})"/>

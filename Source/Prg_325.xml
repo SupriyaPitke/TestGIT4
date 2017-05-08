@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="734079" _time="38061" date="03/11/2010" time="10:34:21"/>
+          <LastModified _date="736457" _time="62794" date="08/05/2017" time="17:26:34"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -56,7 +56,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="1"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="4"/>
@@ -151,7 +150,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="5" id="2">
-                  <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <Range MAX="1" MIN="1"/>
@@ -163,7 +161,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="3" FlowIsn="6" id="3">
-                  <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Code"/>
@@ -180,7 +177,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="4" FlowIsn="7" id="4">
-                  <Column val="3"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Color"/>
@@ -193,7 +189,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="5" FlowIsn="8" id="5">
-                  <Column val="5"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <DisplayName val="Hex Code"/>
@@ -379,7 +374,7 @@
                 <ColumnTitle id="139" valUnicode="Hex Code"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" _test_id="56" id="6">
+            <Control ISN_FATHER="2" PDOD="128" _test_id="56" id="6">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="3"/>
@@ -399,7 +394,7 @@
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control ISN_FATHER="2" _test_id="50" id="7">
+            <Control ISN_FATHER="2" PDOD="128" _test_id="50" id="7">
               <PropertyList model="CTRL_GUI0_EDIT">
                 <Model ID="MODEL_GUI_INT_TBL" id="1">
                   <Var FieldID="4"/>
@@ -489,7 +484,7 @@
           </Expression>
           <Expression id="4">
             <ExpSyntax val="Val({0,3},'3')"/>
-            <ExpAttribute val="N"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <VarRangeInfo Mode="E" VarRangeVeeIsn="2" id="1"/>
@@ -720,7 +715,7 @@
             </FormEntry>
           </TaskForms>
           <Task MainProgram="N">
-            <Header Description="== Write Data" ISN_2="3" LastIsn="3" id="325">
+            <Header Description="== Write Data" ISN_2="3" LastIsn="4" id="325">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
